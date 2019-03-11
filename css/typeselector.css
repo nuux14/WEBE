@@ -1,0 +1,16 @@
+p
+{
+ color:tomato;
+}
+
+span{
+    border-style:dashed;
+}
+
+button{
+    color: gold;
+}
+
+input{
+    background-color:rgba(0,255,0,0.1);
+}
