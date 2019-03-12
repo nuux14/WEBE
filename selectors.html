@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,26 @@
     <title>Types of Selectors</title>
     <link rel="stylesheet" href="css/typeselector.css">
 </head>
+
 <body>
     <!-- 1. Tag(type|element) selector -->
+    <div>
+        <p>
+            a child of div(Paragraph). Lorem, ipsum dolor.
+        </p>
+        <h5>
+            a child of div(This is H5
+            <p>
+                a parag in H5
+            </p>
+            )
+        </h5>
+        <p>
+            a child of div (Paragraph)
+        </p>
+    </div>
+    <p>this is adjacent to div</p>
+    <hr>
     <p class="myClass">a paragraph</p>
     <div>a div element</div>
     <span>inline span element</span>
@@ -18,4 +37,5 @@
     <input type="text" id="txtName">
     <button>Save</button>
 </body>
+
 </html>

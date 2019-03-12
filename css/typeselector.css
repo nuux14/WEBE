@@ -26,3 +26,29 @@ BODY{
     border-color:red;
     border-width:3px;
 }
+
+/* Child Selector */
+div > p{
+    background-color:lightcyan;
+}
+
+/* Descendent selector */
+div p{
+    border-style:solid;
+}
+
+/* Adjacent Sibling selector */
+div+p{
+    /* display:none; */
+    background-color: bisque;
+}
+
+/* General sibling selector */
+div~p{
+    padding:10px;
+}
+
+/* Universal selector */
+* {
+    font-weight: bolder;
+}
