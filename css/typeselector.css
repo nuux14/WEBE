@@ -1,16 +1,28 @@
-p
-{
- color:tomato;
+/* Tag/Type/Element selector */
+P{
+    background-color:lightcoral;
 }
 
-span{
+div, h2, h3{
+    color:darkgreen;
+}
+BODY{
+    background-color:lightgreen;
+}
+
+/*  ID selector : case sensitive */
+#txtName{
     border-style:dashed;
 }
 
-button{
-    color: gold;
+/* Class selector : case sensitive */
+
+.myClass{
+  background-color:yellow;
 }
 
-input{
-    background-color:rgba(0,255,0,0.1);
+.borderColoring{
+    border-style:dotted;
+    border-color:red;
+    border-width:3px;
 }
