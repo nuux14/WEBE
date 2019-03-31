@@ -1,0 +1,40 @@
+#banner{
+    background-color: #ff00c9ff;
+    padding:20px;
+    text-align:center;
+     color:  rgba(78, 69, 133, 0.493)   /*rgb(0, 0, 0);*/
+}
+
+#menu{
+    background-color:pink;
+   
+    list-style-type:none;
+    margin:0;
+   padding-left:6px;
+  position: sticky;  /* static, relative, fixed, absolute, sticky  */
+  top:0; 
+}
+
+#menu>li{
+    display:inline-block;
+    padding: 10px 6px;
+}
+
+#menu>li>a{
+    text-transform:uppercase;
+    text-decoration:none;
+}
+
+body{
+    margin:0;
+}
+
+p{
+    padding-right:5px;
+    padding-left:10px;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    padding-right: 10px;
+    padding-left: 10px;
+}

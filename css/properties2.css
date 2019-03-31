@@ -1,0 +1,23 @@
+h1{
+    border-style:solid;
+    border-right-style:dashed;
+    border-bottom-color:darkgreen;
+    border-width:4px;
+    border-bottom-width:10px;
+    margin:20px;
+    padding:10px;
+}
+
+div{
+    border-style:solid;
+    width:200px;
+    height:200px;
+    border-color:red;
+    padding:8px;
+    box-sizing:border-box;
+    border-width:1px;
+}
+
+p{
+    border-style:dashed;
+}
